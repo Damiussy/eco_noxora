@@ -31,8 +31,6 @@ export default function Home() {
           <div className="flex items-center justify-between mb-4 w-full px-4">
             {/* Placeholder for route path */}
             <ItineraryMap />
-            {/* Current location pin placeholder */}
-            <div className="w-6 h-6 bg-green-400 rounded-full flex items-center justify-center text-white text-xs"></div>
           </div>
           <div className="text-lg font-medium">
             Nicolas @ 45 Rue A Sm
@@ -54,19 +52,23 @@ export default function Home() {
       {/* Footer Navigation */}
       <footer className="w-full max-w-4xl border-t border-gray-200 py-4 flex justify-around items-center mt-auto">
         <div className="flex flex-col items-center">
-          <div className="w-8 h-8 bg-gray-300 rounded-full mb-1"></div>
+          {/* House icon for Hub */}
+          <span className="text-2xl">&#127968;</span> {/* House emoji */}
           <span className="text-sm">Hub</span>
         </div>
         <div className="flex flex-col items-center">
-          <div className="w-8 h-8 bg-gray-300 rounded-full mb-1"></div>
+          {/* Car icon for Covoiturage */}
+          <span className="text-2xl">&#128663;</span> {/* Car emoji */}
           <span className="text-sm">Covoiturage</span>
         </div>
         <div className="flex flex-col items-center">
-          <div className="w-8 h-8 bg-gray-300 rounded-full mb-1"></div>
+          {/* Euro sign for Économie */}
+          <span className="text-2xl">&#8364;</span> {/* Euro sign */}
           <span className="text-sm">Économie</span>
         </div>
         <div className="flex flex-col items-center">
-          <div className="w-8 h-8 bg-gray-300 rounded-full mb-1"></div>
+          {/* Bust-up silhouette for Profil */}
+          <span className="text-2xl">&#128100;</span> {/* Bust in silhouette emoji */}
           <span className="text-sm">Profil</span>
         </div>
       </footer>
