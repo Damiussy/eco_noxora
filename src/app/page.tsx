@@ -30,15 +30,15 @@ export default function Home() {
           <div className="w-full mb-4">
             <ItineraryMap />
           </div>
-          <div className="text-lg font-medium">
+          <div className="text-lg font-medium text-black">
             Nicolas @ 45 Rue A Sm
           </div>
         </section>
 
         {/* Entreprise Bus ds 5min Section */}
         <section className="w-full bg-gray-100 p-6 rounded-lg shadow-md mb-8 flex flex-col items-center">
-          <div className="text-xl font-bold mb-2">Entreprise</div>
-          <div className="text-lg">Bus ds 5min</div>
+          <div className="text-xl font-bold mb-2 text-black">Entreprise</div>
+          <div className="text-lg text-black">Bus ds 5min</div>
         </section>
 
         {/* Tiens toi prêt Section */}
