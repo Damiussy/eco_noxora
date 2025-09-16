@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ItineraryMap from "../components/ItineraryMap";
+import LogoEcoNexora from "../components/logo";
 
 export default function Home() {
   return (
@@ -7,8 +8,8 @@ export default function Home() {
       {/* Header */}
       <header className="w-full max-w-4xl flex justify-between items-center py-4">
         <div className="flex items-center space-x-4">
-          {/* Back arrow placeholder */}
-          <h1 className="text-2xl font-bold">EcoNexor</h1>
+          {/* Logo */}
+          <LogoEcoNexora />
         </div>
         <div className="flex items-center space-x-4">
           {/* Plus icon placeholder */}
@@ -21,8 +22,8 @@ export default function Home() {
       <main className="flex flex-col items-center flex-grow w-full max-w-4xl py-8">
         {/* EcoNexor and Bienvenu section */}
         <section className="text-center mb-8">
-          <h1 className="text-5xl font-extrabold mb-2">Bienvenu sur</h1>
-          <h2 className="text-4xl font-semibold">EcoNexor</h2>
+          <h1 className="text-5xl font-extrabold mb-2">EcoNexor</h1>
+          <h3 className="text-4xl font-semibold">Le covoiturage simple et efficace, pensé pour vos collaborateurs.</h3>
         </section>
 
         {/* Route/Progress Section */}
@@ -49,26 +50,26 @@ export default function Home() {
 
       {/* Footer Navigation */}
       <footer className="w-full max-w-4xl border-t border-gray-200 py-4 flex justify-around items-center mt-auto">
-        <div className="flex flex-col items-center">
+        <button className="flex flex-col items-center p-2 rounded-md hover:bg-gray-200 transition-colors">
           {/* House icon for Hub */}
           <span className="text-2xl">&#127968;</span> {/* House emoji */}
           <span className="text-sm">Hub</span>
-        </div>
-        <div className="flex flex-col items-center">
+        </button>
+        <button className="flex flex-col items-center p-2 rounded-md hover:bg-gray-200 transition-colors">
           {/* Car icon for Covoiturage */}
           <span className="text-2xl">&#128663;</span> {/* Car emoji */}
           <span className="text-sm">Covoiturage</span>
-        </div>
-        <div className="flex flex-col items-center">
+        </button>
+        <button className="flex flex-col items-center p-2 rounded-md hover:bg-gray-200 transition-colors">
           {/* Euro sign for Économie */}
           <span className="text-2xl">&#8364;</span> {/* Euro sign */}
           <span className="text-sm">Économie</span>
-        </div>
-        <div className="flex flex-col items-center">
+        </button>
+        <button className="flex flex-col items-center p-2 rounded-md hover:bg-gray-200 transition-colors">
           {/* Bust-up silhouette for Profil */}
           <span className="text-2xl">&#128100;</span> {/* Bust in silhouette emoji */}
           <span className="text-sm">Profil</span>
-        </div>
+        </button>
       </footer>
     </div>
   );
