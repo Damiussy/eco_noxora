@@ -8,8 +8,7 @@ export default function Home() {
       <header className="w-full max-w-4xl flex justify-between items-center py-4">
         <div className="flex items-center space-x-4">
           {/* Back arrow placeholder */}
-          <span className="text-2xl">&#8592;</span>
-          <h1 className="text-2xl font-bold">R3s3@u-G3S</h1>
+          <h1 className="text-2xl font-bold">EcoNexor</h1>
         </div>
         <div className="flex items-center space-x-4">
           {/* Plus icon placeholder */}
@@ -22,14 +21,13 @@ export default function Home() {
       <main className="flex flex-col items-center flex-grow w-full max-w-4xl py-8">
         {/* EcoNexor and Bienvenu section */}
         <section className="text-center mb-8">
-          <h1 className="text-5xl font-extrabold mb-2">EcoNexor</h1>
-          <h2 className="text-4xl font-semibold">Bienvenu</h2>
+          <h1 className="text-5xl font-extrabold mb-2">Bienvenu sur</h1>
+          <h2 className="text-4xl font-semibold">EcoNexor</h2>
         </section>
 
         {/* Route/Progress Section */}
         <section className="w-full bg-gray-100 p-6 rounded-lg shadow-md mb-8 flex flex-col items-center">
-          <div className="flex items-center justify-between mb-4 w-full px-4">
-            {/* Placeholder for route path */}
+          <div className="w-full mb-4">
             <ItineraryMap />
           </div>
           <div className="text-lg font-medium">
